@@ -134,13 +134,30 @@ public class LocatorsPage extends BasePage {
 	public void cssSelectorsOperation() throws InterruptedException {
 		/**
 		 * Four Types
-		 * 1. Simple Selector
+		 * 
+		 * 1. Simple selectors
 		 * 		a. element
 		 * 		b. id
 		 * 		c. class
 		 * 		d. universal
-		 * 2. Pseudo-class selectors
+		 * 
+		 * 2. Conditions and Pseudo-class selectors	
+		 * 		a) and condition
+		 * 		b) or condition
+		 * 		c) not condition
+		 * 		d) first-child
+		 * 		e) last-child
+		 * 		f) nth-child
+		 * 		g) first-of-type
+		 * 		h) last-of-type
+		 * 		i) nth-of-type
+		 * 
 		 * 3. Combinator selectors
+		 * 		a. Descendant 
+		 * 		b. Child
+		 * 		c. Adjacent Sibling
+		 * 		e. General Sibling
+		 * 
 		 * 4. Attribute selectors
 		 * 		a. Name
 		 * 		b. Value
@@ -152,14 +169,34 @@ public class LocatorsPage extends BasePage {
 		 */
 		
 		
-		// Simple Selectors
+		// 1. Simple Selectors
 		System.out.println(driver.findElement(By.cssSelector("button")).getAttribute("id"));	// Simple Element
 		driver.findElement(By.cssSelector("#firstName")).sendKeys("Sazzad");					// Simple Id
 		driver.findElement(By.cssSelector(".gender")).sendKeys("Male");							// Simple Class
 		System.out.println(driver.findElement(By.cssSelector("*")).getSize()); 					// Simple Universal
 		
 		
-		// Attribute Selectos
+		// 2. Conditions and Pseudo-class Selectors
+		// a)	input[class='button'][type='button']
+		// b)	button,input[type='button'],input[type='submit']
+		// c)	input.button:not([type='button'])
+		// d)	.container>:first-child
+		// e)	.container>:last-child
+		// f)	.container>:nth-child(7)
+		// g) 	.container>br:first-of-type
+		// h)	.container>br:last-of-type
+		// i)	.container>br:nth-of-type(2)
+		
+		
+		
+		// 3. Combinator Selectors
+		// a)	.container select
+		// b)	.container>div>select
+		// c)	input[placeholder='Verify your personal details']+select
+		// d) 	input[placeholder='Verify your personal details']~br
+		
+				
+		// 4. Attribute Selectos
 		// a	input[placeholder]
 		// b	input[placeholder='First Name']
 		// c	input[placeholder~='question']
@@ -175,6 +212,10 @@ public class LocatorsPage extends BasePage {
 		System.out.println(driver.findElements(By.cssSelector("p[class|='my']")).size());
 		System.out.println(driver.findElements(By.cssSelector("p[class^='my']")).size());
 		System.out.println(driver.findElements(By.cssSelector("p[class$='lass']")).size());
+		
+		
+		
+		
 		
 		
 	}
