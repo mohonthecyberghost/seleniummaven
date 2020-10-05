@@ -95,33 +95,33 @@ public class LocatorsPage extends BasePage {
 	public void xpathOperation() throws InterruptedException {
 		
 		/*
-		 * //input[@name='refreshbtn' and @value='Refresh']
+		 * //input[@name='refreshbtn' and @value='Refresh']						// And Condition
+		 * 	
+		 * //h1[text()='Register']												// Text
 		 * 
-		 * //h1[text()='Register']
+		 * //div[text()='Sign in']												// Text
 		 * 
-		 * //div[text()='Sign in']
+		 * //div[contains(@class,'signin')]										// Contains
 		 * 
-		 * //div[contains(@class,'signin')]
+		 * //a[starts-with(text(),'Sign in in')]								// Starts With
 		 * 
-		 * //a[starts-with(text(),'Sign in in')]
+		 * //label[normalize-space(text())='First Name']						// Normalize Space
 		 * 
-		 * //label[normalize-space(text())='First Name']
+		 * //label[text()='Email']/following-sibling::input[1]					// Following Sibling
 		 * 
-		 * //label[text()='Email']/following-sibling::input[1]
+		 * //label[text()='Email']/following-sibling::input[1]/parent::div		// preceeding parent
 		 * 
-		 * //label[text()='Email']/following-sibling::input[1]/parent::div
+		 * //div[@class='container']/child::input[@type='text']					// Child
 		 * 
-		 * //div[@class='container']/child::input[@type='text']
+		 * //td[text()='Maria Anders']/preceding-sibling::td/child::input		// Preceding Sibling
 		 * 
-		 * //td[text()='Maria Anders']/preceding-sibling::td/child::input
+		 * //div[@class='container']/descendant::button							// Descendant | forward
 		 * 
-		 * //div[@class='container']/descendant::button
+		 * //div[@class='buttons']/ancestor::div								// Ancestor	| Backward				
 		 * 
-		 * //div[@class='buttons']/ancestor::div
+		 * //div[@class='buttons']/ancestor-or-self::div						// Ancestor including self
 		 * 
-		 * //div[@class='buttons']/ancestor-or-self::div
-		 * 
-		 * //label[text()='Password']/following::input[1]
+		 * //label[text()='Password']/following::input[1]						// Following
 		 * 
 		 */
 		

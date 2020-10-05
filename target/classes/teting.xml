@@ -60,16 +60,22 @@
 	<!-- <class name="com.waltonbd.WebTests.JavascriptTest" /> -->
 	<!-- </classes> -->
 	<!-- </test> -->
-	
-	<test name="Locators Test - chrome" parallel="methods"
+
+	<!-- <test name="Locators Test - firefox" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="ff" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.LocatorsTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<test name="Screenshots Test - chrome" parallel="methods"
 		thread-count="5">
-		<parameter name="browser" value="ff" />
+		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.waltonbd.WebTests.LocatorsTest" />
+			<class name="com.waltonbd.WebTests.ScreenshotsTest" />
 		</classes>
 	</test>
-
-
 
 
 </suite>
