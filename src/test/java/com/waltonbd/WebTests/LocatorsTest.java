@@ -3,7 +3,6 @@ package com.waltonbd.WebTests;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import com.waltonbd.WebPages.FramesPage;
 import com.waltonbd.WebPages.LocatorsPage;
 
 public class LocatorsTest extends BaseTest {
@@ -15,7 +14,9 @@ public class LocatorsTest extends BaseTest {
 		
 		//super("https://www.hyrtutorials.com/p/html-dropdown-elements-practice.html");
 		
-		super("https://www.hyrtutorials.com/p/add-padding-to-containers.html");
+		//super("https://www.hyrtutorials.com/p/add-padding-to-containers.html");	// Xpath Practice Link
+		
+		super("https://www.hyrtutorials.com/p/css-selectors-practice.html");	// Css Selector Practice Link
 	}
 
 	@Test(priority = 1, enabled = false)
@@ -45,7 +46,7 @@ public class LocatorsTest extends BaseTest {
 
 	}
 	
-	@Test(priority = 4 , enabled = true)
+	@Test(priority = 4 , enabled = false)
 	public void htmlDropDownsOperation() throws InterruptedException {
 
 		page.getInstance(LocatorsPage.class).htmlDropDownsOperation();
@@ -54,10 +55,19 @@ public class LocatorsTest extends BaseTest {
 
 	}
 	
-	@Test(priority = 5 , enabled = true)
+	@Test(priority = 5 , enabled = false)
 	public void xpathOperation() throws InterruptedException {
 
 		page.getInstance(LocatorsPage.class).xpathOperation();
+		
+
+
+	}
+	
+	@Test(priority = 6 , enabled = true)
+	public void cssSelectorsOperation() throws InterruptedException {
+
+		page.getInstance(LocatorsPage.class).cssSelectorsOperation();
 		
 
 

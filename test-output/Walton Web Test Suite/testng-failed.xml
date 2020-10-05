@@ -2,11 +2,11 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Walton Web Test Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="3" parallel="methods" name="Locators Test - chrome(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="ff"/>
     <classes>
       <class name="com.waltonbd.WebTests.LocatorsTest">
         <methods>
-          <include name="htmlDropDownsOperation"/>
+          <include name="cssSelectorsOperation"/>
           <include name="tearDown"/>
           <include name="setUpTest"/>
         </methods>

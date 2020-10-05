@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 public class LocatorsPage extends BasePage {
 
@@ -31,6 +31,11 @@ public class LocatorsPage extends BasePage {
 	
 	
 	// Xpath Axes
+	
+	
+	// Css Selectors
+	
+//	private By button = By.cssSelector("button");
 	
 	
 	
@@ -122,6 +127,54 @@ public class LocatorsPage extends BasePage {
 		
 		
 		
+		
+		
+	}
+	
+	public void cssSelectorsOperation() throws InterruptedException {
+		/**
+		 * Four Types
+		 * 1. Simple Selector
+		 * 		a. element
+		 * 		b. id
+		 * 		c. class
+		 * 		d. universal
+		 * 2. Pseudo-class selectors
+		 * 3. Combinator selectors
+		 * 4. Attribute selectors
+		 * 		a. Name
+		 * 		b. Value
+		 * 		c. Value with PartialText WholeWOrd
+		 * 		d. Value with PartialText
+		 * 		e. Value StartsWith WholeWord
+		 * 		f. Value StartsWith Text
+		 * 		g. Value EndsWith Text
+		 */
+		
+		
+		// Simple Selectors
+		System.out.println(driver.findElement(By.cssSelector("button")).getAttribute("id"));	// Simple Element
+		driver.findElement(By.cssSelector("#firstName")).sendKeys("Sazzad");					// Simple Id
+		driver.findElement(By.cssSelector(".gender")).sendKeys("Male");							// Simple Class
+		System.out.println(driver.findElement(By.cssSelector("*")).getSize()); 					// Simple Universal
+		
+		
+		// Attribute Selectos
+		// a	input[placeholder]
+		// b	input[placeholder='First Name']
+		// c	input[placeholder~='question']
+		// d	input[placeholder*='ques']
+		// e	p[class|='my']
+		// f	p[class^='my']
+		// g	p[class$='lass']
+		
+		System.out.println(driver.findElements(By.cssSelector("input[placeholder]")).size());
+		System.out.println(driver.findElements(By.cssSelector("input[placeholder='First Name']")).size());
+		System.out.println(driver.findElements(By.cssSelector("iinput[placeholder~='question']")).size());
+		System.out.println(driver.findElements(By.cssSelector("input[placeholder*='ques']")).size());
+		System.out.println(driver.findElements(By.cssSelector("p[class|='my']")).size());
+		System.out.println(driver.findElements(By.cssSelector("p[class^='my']")).size());
+		System.out.println(driver.findElements(By.cssSelector("p[class$='lass']")).size());
 		
 		
 	}
