@@ -11,7 +11,7 @@ public class FramesTest extends BaseTest {
 		super("https://www.hyrtutorials.com/p/frames-practice.html");
 	}
 
-	@Test(priority = 1, enabled = false)
+	@Test(priority = 1, enabled = true)
 	public void openFramesPage() {
 
 		Assert.assertEquals(page.getPageTitle(), "Frames Practice - H Y R Tutorials");
@@ -24,7 +24,7 @@ public class FramesTest extends BaseTest {
 
 		FramesPage fPage = page.getInstance(FramesPage.class);
 		fPage.inputText();
-//		fPage.selectCourse();
+		fPage.selectCourse();
 		fPage.selectNestedCourse();
 
 //		Assert.assertEquals(page.getPageTitle(), "Frames Practice - H Y R Tutorials");

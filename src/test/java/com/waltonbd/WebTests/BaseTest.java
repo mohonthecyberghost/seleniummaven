@@ -72,12 +72,16 @@ public class BaseTest {
 
 		driver.manage().deleteAllCookies();
 		driver.manage().window().maximize();
+		
+		
+		// Default value 0 Seconds implicit timeout
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		
+		
+		// Default value 300 Seconds pageload timeout
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		
-		
-		
-		
+	
 
 		driver.get(this.url);
 

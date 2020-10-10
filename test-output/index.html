@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,7 +102,12 @@
                     <div class="method-list-content passed suite-Walton_Web_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Walton_Web_Test_Suite" title="com.waltonbd.WebTests.ScreenshotsTest" class="method navigator-link" hash-for-method="captureScreenshots">captureScreenshots</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Walton_Web_Test_Suite" title="com.waltonbd.WebTests.WaitTest" class="method navigator-link" hash-for-method="openAndInputFrames">openAndInputFrames</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Walton_Web_Test_Suite" title="com.waltonbd.WebTests.WaitTest" class="method navigator-link" hash-for-method="openFramesPage">openFramesPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Walton_Web_Test_Suite -->
@@ -120,14 +125,21 @@
           <div class="suite-Walton_Web_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.waltonbd.WebTests.ScreenshotsTest</span>
+              <span class="class-name">com.waltonbd.WebTests.WaitTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="captureScreenshots">
-                  </a> <!-- captureScreenshots -->
-                  <span class="method-name">captureScreenshots</span>
+                  <a name="openAndInputFrames">
+                  </a> <!-- openAndInputFrames -->
+                  <span class="method-name">openAndInputFrames</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="openFramesPage">
+                  </a> <!-- openFramesPage -->
+                  <span class="method-name">openFramesPage</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,12 +154,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Walton Web Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Screenshots Test - chrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Frames Test - chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.waltonbd.WebTests.ScreenshotsTest&quot;/&gt;
+      &lt;class name=&quot;com.waltonbd.WebTests.WaitTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Screenshots Test - chrome --&gt;
+  &lt;/test&gt; &lt;!-- Frames Test - chrome --&gt;
 &lt;/suite&gt; &lt;!-- Walton Web Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +171,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Screenshots Test - chrome (1 class)</span>
+                <span class="test-name">Frames Test - chrome (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -185,16 +197,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'captureScreenshots')
-data.setCell(0, 2, 'com.waltonbd.WebTests.ScreenshotsTest')
-data.setCell(0, 3, 1622);
+data.setCell(0, 1, 'openAndInputFrames')
+data.setCell(0, 2, 'com.waltonbd.WebTests.WaitTest')
+data.setCell(0, 3, 5452);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'openFramesPage')
+data.setCell(1, 2, 'com.waltonbd.WebTests.WaitTest')
+data.setCell(1, 3, 1853);
 window.suiteTableData['Walton_Web_Test_Suite']= { tableData: data, tableDiv: 'times-div-Walton_Web_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 seconds</span>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
               <div id="times-div-Walton_Web_Test_Suite">
               </div> <!-- times-div-Walton_Web_Test_Suite -->
             </div> <!-- times-div -->
@@ -209,16 +225,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Walton_Web_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">1 ignored method</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.waltonbd.WebTests.ScreenshotsTest</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">openFramesPage</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Walton_Web_Test_Suite" class="panel">
@@ -227,18 +236,30 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.waltonbd.WebTests.ScreenshotsTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.waltonbd.WebTests.WaitTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUpTest(chrome)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">captureScreenshots</span>
-                <span class="method-start">10567 ms</span>
+                <span class="method-name">openFramesPage</span>
+                <span class="method-start">8118 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">12193 ms</span>
+                <span class="method-start">9974 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUpTest(chrome)</span>
+                <span class="method-start">9977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">openAndInputFrames</span>
+                <span class="method-start">17826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23279 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Walton Web Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="methods" name="Locators Test - chrome(failed)">
-    <parameter name="browser" value="ff"/>
+  <test thread-count="3" parallel="methods" name="Screenshots Test - chrome(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.waltonbd.WebTests.LocatorsTest">
+      <class name="com.waltonbd.WebTests.ScreenshotsTest">
         <methods>
-          <include name="cssSelectorsOperation"/>
+          <include name="captureScreenshots"/>
           <include name="tearDown"/>
           <include name="setUpTest"/>
         </methods>
-      </class> <!-- com.waltonbd.WebTests.LocatorsTest -->
+      </class> <!-- com.waltonbd.WebTests.ScreenshotsTest -->
     </classes>
-  </test> <!-- Locators Test - chrome(failed) -->
+  </test> <!-- Screenshots Test - chrome(failed) -->
 </suite> <!-- Failed suite [Walton Web Test Suite] -->
