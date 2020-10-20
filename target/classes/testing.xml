@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Walton Web Test Suite" thread-count="3"
+	parallel="tests" verbose="1">
+
+
+	<!-- <test name="About Test - chrome" parallel="methods" thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.AboutTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Products Test - chrome" parallel="methods" thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.ProductsTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- <test name="Frames Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.FramesTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- <test name="Windows Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.WindowTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Alerts Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.AlertTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Robot Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.RobotTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Javascript Executor Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.JavascriptTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Locators Test - firefox" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="ff" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.LocatorsTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Screenshots Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.ScreenshotsTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- <test name="Wait Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.WaitTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+	<!-- <test name="Broken Link Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.BokenLinksTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+
+	<!-- <test name="Excel Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.ExcelTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<test name="Log4j Test - chrome" parallel="methods"
+		thread-count="5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.waltonbd.WebTests.Log4jTest" />
+		</classes>
+	</test>
+
+
+</suite>
+

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-10T11:14:54Z" name="Walton Web Test Suite" finished-at="2020-10-10T11:15:18Z" duration-ms="23299">
+  <suite started-at="2020-10-20T08:49:29Z" name="Walton Web Test Suite" finished-at="2020-10-20T08:50:04Z" duration-ms="35605">
     <groups>
     </groups>
-    <test started-at="2020-10-10T11:14:54Z" name="Frames Test - chrome" finished-at="2020-10-10T11:15:18Z" duration-ms="23299">
-      <class name="com.waltonbd.WebTests.WaitTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:14:54Z" name="setUpTest" finished-at="2020-10-10T11:15:03Z" duration-ms="8118" status="PASS">
+    <test started-at="2020-10-20T08:49:29Z" name="Log4j Test - chrome" finished-at="2020-10-20T08:50:04Z" duration-ms="35605">
+      <class name="com.waltonbd.WebTests.Log4jTest">
+        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:49:29Z" name="setUpTest" finished-at="2020-10-20T08:50:02Z" duration-ms="33596" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,34 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="openFramesPage()[pri:1, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:15:03Z" name="openFramesPage" finished-at="2020-10-10T11:15:04Z" duration-ms="1853" status="PASS">
+        <test-method signature="operations()[pri:1, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:50:02Z" name="operations" finished-at="2020-10-20T08:50:02Z" duration-ms="33" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openFramesPage -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:15:04Z" name="tearDown" finished-at="2020-10-10T11:15:04Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:15:04Z" name="setUpTest" finished-at="2020-10-10T11:15:12Z" duration-ms="7849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="openAndInputFrames()[pri:2, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:15:12Z" name="openAndInputFrames" finished-at="2020-10-10T11:15:18Z" duration-ms="5452" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openAndInputFrames -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.waltonbd.WebTests.WaitTest@6a03bcb1]" started-at="2020-10-10T11:15:18Z" name="tearDown" finished-at="2020-10-10T11:15:18Z" duration-ms="0" status="PASS">
+        </test-method> <!-- operations -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:50:02Z" name="tearDown" finished-at="2020-10-20T08:50:04Z" duration-ms="1929" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.waltonbd.WebTests.WaitTest -->
-    </test> <!-- Frames Test - chrome -->
+      </class> <!-- com.waltonbd.WebTests.Log4jTest -->
+    </test> <!-- Log4j Test - chrome -->
   </suite> <!-- Walton Web Test Suite -->
 </testng-results>

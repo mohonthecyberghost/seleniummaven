@@ -1,5 +1,6 @@
 package com.waltonbd.WebTests;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.testng.Assert;
@@ -16,7 +17,7 @@ public class WaitTest extends BaseTest {
 	
 	}
 
-	@Test(priority = 1, enabled = true)
+	@Test(priority = 1, enabled = false)
 	public void openFramesPage() {
 
 		Assert.assertEquals(page.getPageTitle(), "Waits Demo - H Y R Tutorials");
@@ -25,7 +26,7 @@ public class WaitTest extends BaseTest {
 	}
 
 	@Test(priority = 2, enabled = true)
-	public void openAndInputFrames() {
+	public void openAndInputFrames() throws Exception {
 
 		WaitPage wPage = page.getInstance(WaitPage.class);
 		wPage.inputText();

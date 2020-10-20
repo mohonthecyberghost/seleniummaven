@@ -79,7 +79,7 @@ public class BaseTest {
 		
 		
 		// Default value 300 Seconds pageload timeout
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(300, TimeUnit.SECONDS);
 		
 	
 
@@ -98,7 +98,7 @@ public class BaseTest {
 
 	@AfterMethod
 	public void tearDown() {
-//		driver.quit();
+		driver.quit();
 	}
 
 }

@@ -1,5 +1,6 @@
 package com.waltonbd.WebPages;
 
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -20,11 +21,15 @@ public class WaitPage extends BasePage {
 
 	/**
 	 * Product Go Method
+	 * @throws Exception 
 	 * 
 	 */
-	public void inputText() {
+	public void inputText() throws Exception {
 		this.getElement(btn1).click();
 		this.getElement(txt1).sendKeys("Hello");
+		
+		CreateAndWriteExcel excelTest = new CreateAndWriteExcel(driver);
+		excelTest.readSheetData();
 	}
 
 	
