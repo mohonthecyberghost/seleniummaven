@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Walton Web Test Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="3" parallel="methods" name="Log4j Test - chrome(failed)">
+  <test thread-count="3" parallel="methods" name="Cucumber Test - chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.waltonbd.WebTests.Log4jTest">
+      <class name="com.waltonbd.WebTests.MyRunner.TestRunner">
         <methods>
-          <include name="excelOperations"/>
-          <include name="tearDown"/>
-          <include name="setUpTest"/>
+          <include name="tearDownClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
         </methods>
-      </class> <!-- com.waltonbd.WebTests.Log4jTest -->
+      </class> <!-- com.waltonbd.WebTests.MyRunner.TestRunner -->
     </classes>
-  </test> <!-- Log4j Test - chrome(failed) -->
+  </test> <!-- Cucumber Test - chrome(failed) -->
 </suite> <!-- Failed suite [Walton Web Test Suite] -->

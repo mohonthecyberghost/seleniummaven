@@ -2,31 +2,34 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-10-20T08:49:29Z" name="Walton Web Test Suite" finished-at="2020-10-20T08:50:04Z" duration-ms="35605">
+  <suite started-at="2020-10-22T11:59:56Z" name="Walton Web Test Suite" finished-at="2020-10-22T12:00:15Z" duration-ms="19107">
     <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.waltonbd.WebTests.MyRunner.TestRunner@306cf3ea]" name="feature" class="com.waltonbd.WebTests.MyRunner.TestRunner"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-10-20T08:49:29Z" name="Log4j Test - chrome" finished-at="2020-10-20T08:50:04Z" duration-ms="35605">
-      <class name="com.waltonbd.WebTests.Log4jTest">
-        <test-method is-config="true" signature="setUpTest(java.lang.String)[pri:0, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:49:29Z" name="setUpTest" finished-at="2020-10-20T08:50:02Z" duration-ms="33596" status="PASS">
+    <test started-at="2020-10-22T11:59:56Z" name="Cucumber Test - chrome" finished-at="2020-10-22T12:00:15Z" duration-ms="19107">
+      <class name="com.waltonbd.WebTests.MyRunner.TestRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.waltonbd.WebTests.MyRunner.TestRunner@306cf3ea]" started-at="2020-10-22T11:59:56Z" name="setUpClass" finished-at="2020-10-22T11:59:56Z" duration-ms="222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.waltonbd.WebTests.MyRunner.TestRunner@306cf3ea]" started-at="2020-10-22T11:59:56Z" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-10-22T12:00:15Z" duration-ms="18782" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[Free CRM Login Feature]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpTest -->
-        <test-method signature="operations()[pri:1, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:50:02Z" name="operations" finished-at="2020-10-20T08:50:02Z" duration-ms="33" status="PASS">
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.waltonbd.WebTests.MyRunner.TestRunner@306cf3ea]" started-at="2020-10-22T12:00:15Z" name="tearDownClass" finished-at="2020-10-22T12:00:15Z" duration-ms="7" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- operations -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.waltonbd.WebTests.Log4jTest@a38c7fe]" started-at="2020-10-20T08:50:02Z" name="tearDown" finished-at="2020-10-20T08:50:04Z" duration-ms="1929" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.waltonbd.WebTests.Log4jTest -->
-    </test> <!-- Log4j Test - chrome -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.waltonbd.WebTests.MyRunner.TestRunner -->
+    </test> <!-- Cucumber Test - chrome -->
   </suite> <!-- Walton Web Test Suite -->
 </testng-results>

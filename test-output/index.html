@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Walton_Web_Test_Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-Walton_Web_Test_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Walton_Web_Test_Suite" title="com.waltonbd.WebTests.Log4jTest" class="method navigator-link" hash-for-method="operations">operations</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Walton_Web_Test_Suite" title="com.waltonbd.WebTests.MyRunner.TestRunner" class="method navigator-link" hash-for-method="feature(Free CRM Login Feature)">feature(Free CRM Login Feature)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Walton_Web_Test_Suite -->
@@ -120,14 +120,17 @@
           <div class="suite-Walton_Web_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.waltonbd.WebTests.Log4jTest</span>
+              <span class="class-name">com.waltonbd.WebTests.MyRunner.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="operations">
-                  </a> <!-- operations -->
-                  <span class="method-name">operations</span>
+                  <a name="feature(Free CRM Login Feature)">
+                  </a> <!-- feature(Free CRM Login Feature) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Free CRM Login Feature)</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -142,12 +145,12 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;3&quot; parallel=&quot;tests&quot; name=&quot;Walton Web Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Log4j Test - chrome&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; parallel=&quot;methods&quot; name=&quot;Cucumber Test - chrome&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.waltonbd.WebTests.Log4jTest&quot;/&gt;
+      &lt;class name=&quot;com.waltonbd.WebTests.MyRunner.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Log4j Test - chrome --&gt;
+  &lt;/test&gt; &lt;!-- Cucumber Test - chrome --&gt;
 &lt;/suite&gt; &lt;!-- Walton Web Test Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -159,7 +162,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Log4j Test - chrome (1 class)</span>
+                <span class="test-name">Cucumber Test - chrome (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -169,6 +172,14 @@
             <span class="header-content">Groups for Walton Web Test Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">cucumber</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">feature</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Walton_Web_Test_Suite" class="panel">
@@ -187,14 +198,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'operations')
-data.setCell(0, 2, 'com.waltonbd.WebTests.Log4jTest')
-data.setCell(0, 3, 33);
+data.setCell(0, 1, 'feature')
+data.setCell(0, 2, 'com.waltonbd.WebTests.MyRunner.TestRunner')
+data.setCell(0, 3, 18782);
 window.suiteTableData['Walton_Web_Test_Suite']= { tableData: data, tableDiv: 'times-div-Walton_Web_Test_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 33 ms</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Walton_Web_Test_Suite">
               </div> <!-- times-div-Walton_Web_Test_Suite -->
             </div> <!-- times-div -->
@@ -220,19 +231,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.waltonbd.WebTests.Log4jTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">setUpTest(chrome)</span>
+              <div class="chronological-class-name">com.waltonbd.WebTests.MyRunner.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">operations</span>
-                <span class="method-start">33596 ms</span>
+                <span class="method-name">feature(Free CRM Login Feature)</span>
+                <span class="method-start">304 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">33633 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">19087 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

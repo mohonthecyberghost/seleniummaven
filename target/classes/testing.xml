@@ -105,11 +105,29 @@
 	<!-- </test> -->
 
 
-	<test name="Log4j Test - chrome" parallel="methods"
+	<!-- <test name="Log4j Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.Log4jTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+
+
+	<!-- <test name="Page Factory Test - chrome" parallel="methods" -->
+	<!-- thread-count="5"> -->
+	<!-- <parameter name="browser" value="chrome" /> -->
+	<!-- <classes> -->
+	<!-- <class name="com.waltonbd.WebTests.PageFactoryTest" /> -->
+	<!-- </classes> -->
+	<!-- </test> -->
+	
+	
+	<test name="Cucumber Test - chrome" parallel="methods"
 		thread-count="5">
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="com.waltonbd.WebTests.Log4jTest" />
+			<class name="com.waltonbd.WebTests.MyRunner.TestRunner" />
 		</classes>
 	</test>
 

@@ -1,10 +1,5 @@
-2020-10-20 14:49:32,279 DEBUG [TestNG-test=Log4j Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-21 14:41:59)
-2020-10-20 14:49:32,297 DEBUG [TestNG-test=Log4j Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-21 14:41:59)
-2020-10-20 14:49:32,299  INFO [TestNG-test=Log4j Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-10-20 14:49:32,399 DEBUG [TestNG-test=Log4j Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
-2020-10-20 14:49:32,400  INFO [TestNG-test=Log4j Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
-2020-10-20 14:50:02,715  INFO [TestNG-test=Log4j Test - chrome-1] Log4jTest:19 - Entering Application Operations
-2020-10-20 14:50:02,723  INFO [TestNG-test=Log4j Test - chrome-1] Log4jTest:23 - Page Title :Login Page
-2020-10-20 14:50:02,724  WARN [TestNG-test=Log4j Test - chrome-1] Log4jTest:25 - This is just a warning message
-2020-10-20 14:50:02,724 FATAL [TestNG-test=Log4j Test - chrome-1] Log4jTest:27 - This is just a fatal error message
-2020-10-20 14:50:02,725 DEBUG [TestNG-test=Log4j Test - chrome-1] Log4jTest:29 - This is just a debug message
+2020-10-22 17:59:57,200 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-23 12:36:35)
+2020-10-22 17:59:57,203 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-23 12:36:35)
+2020-10-22 17:59:57,204  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-22 17:59:57,216 DEBUG [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-22 17:59:57,217  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
