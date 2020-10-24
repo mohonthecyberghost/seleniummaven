@@ -105,24 +105,26 @@
 	<!-- </test> -->
 
 
-	<!-- <test name="Log4j Test - chrome" parallel="methods" -->
-	<!-- thread-count="5"> -->
-	<!-- <parameter name="browser" value="chrome" /> -->
-	<!-- <classes> -->
-	<!-- <class name="com.waltonbd.WebTests.Log4jTest" /> -->
-	<!-- </classes> -->
-	<!-- </test> -->
+	<test name="Log4j Test - chrome" parallel="methods"
+		thread-count="5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.waltonbd.WebTests.Log4jTest" />
+		</classes>
+	</test>
 
 
-	<!-- <test name="Page Factory Test - chrome" parallel="methods" -->
-	<!-- thread-count="5"> -->
-	<!-- <parameter name="browser" value="chrome" /> -->
-	<!-- <classes> -->
-	<!-- <class name="com.waltonbd.WebTests.PageFactoryTest" /> -->
-	<!-- </classes> -->
-	<!-- </test> -->
-	
-	
+	<test name="Page Factory Test - chrome" parallel="methods"
+		thread-count="5">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.waltonbd.WebTests.PageFactoryTest" />
+		</classes>
+	</test>
+
+
+
+
 	<test name="Cucumber Test - chrome" parallel="methods"
 		thread-count="5">
 		<parameter name="browser" value="chrome" />
@@ -131,6 +133,12 @@
 		</classes>
 	</test>
 
+	<listeners>
+		<listener
+			class-name="com.waltonbd.ExtentReportListener.ExtentReportListener">
+		</listener>
+
+	</listeners>
 
 </suite>
 

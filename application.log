@@ -1,5 +1,35 @@
-2020-10-22 17:59:57,200 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-23 12:36:35)
-2020-10-22 17:59:57,203 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-23 12:36:35)
-2020-10-22 17:59:57,204  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
-2020-10-22 17:59:57,216 DEBUG [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
-2020-10-22 17:59:57,217  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-24 16:56:08,121 DEBUG [TestNG-test=Log4j Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,128 DEBUG [TestNG-test=Log4j Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,130  INFO [TestNG-test=Log4j Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 16:56:08,254 DEBUG [TestNG-test=Log4j Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 16:56:08,259  INFO [TestNG-test=Log4j Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-24 16:56:08,278 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,280 DEBUG [TestNG-test=Cucumber Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,281  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 16:56:08,285 DEBUG [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 16:56:08,286  INFO [TestNG-test=Cucumber Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-24 16:56:08,294 DEBUG [TestNG-test=Page Factory Test - chrome-1] Preferences:118 - Preference chrome=86 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,296 DEBUG [TestNG-test=Page Factory Test - chrome-1] Preferences:118 - Preference chrome86=86.0.4240.22 (valid until 2020-10-25 11:46:18)
+2020-10-24 16:56:08,296  INFO [TestNG-test=Page Factory Test - chrome-1] WebDriverManager:600 - Using chromedriver 86.0.4240.22 (since Google Chrome 86 is installed in your machine)
+2020-10-24 16:56:08,322 DEBUG [TestNG-test=Page Factory Test - chrome-1] WebDriverManager:545 - Driver chromedriver 86.0.4240.22 found in cache
+2020-10-24 16:56:08,327  INFO [TestNG-test=Page Factory Test - chrome-1] WebDriverManager:1078 - Exporting webdriver.chrome.driver as C:\Users\Hp\.m2\repository\webdriver\chromedriver\win32\86.0.4240.22\chromedriver.exe
+2020-10-24 16:56:39,059  INFO [TestNG-test=Page Factory Test - chrome-1] Log4jTest:35 - checkFactoryFunction..................
+2020-10-24 16:56:41,329  INFO [TestNG-test=Log4j Test - chrome-1] Log4jTest:19 - Entering Application Operations
+2020-10-24 16:56:41,343  INFO [TestNG-test=Log4j Test - chrome-1] Log4jTest:23 - Page Title :Login Page
+2020-10-24 16:56:41,344  WARN [TestNG-test=Log4j Test - chrome-1] Log4jTest:25 - This is just a warning message
+2020-10-24 16:56:41,344 FATAL [TestNG-test=Log4j Test - chrome-1] Log4jTest:27 - This is just a fatal error message
+2020-10-24 16:56:41,344 DEBUG [TestNG-test=Log4j Test - chrome-1] Log4jTest:29 - This is just a debug message
+2020-10-24 16:57:18,183 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-24 16:57:18,186 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-24 16:57:18,187 DEBUG [Finalizer] PoolingHttpClientConnectionManager:408 - Connection manager is shutting down
+2020-10-24 16:57:18,188 DEBUG [Finalizer] PoolingHttpClientConnectionManager:414 - Connection manager shut down
+2020-10-24 16:57:18,566 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-10-24 16:57:18,568 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-10-24 16:57:18,575 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-10-24 16:57:18,576 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-10-24 16:57:18,577 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Hp/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-10-24 16:57:19,823 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-10-24 16:57:19,823 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-10-24 16:57:19,824 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-10-24 16:57:19,824 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-10-24 16:57:19,824 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Hp/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite thread-count="3" parallel="tests" name="Failed suite [Walton Web Test Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.waltonbd.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
   <test thread-count="3" parallel="methods" name="Cucumber Test - chrome(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
@@ -13,4 +16,16 @@
       </class> <!-- com.waltonbd.WebTests.MyRunner.TestRunner -->
     </classes>
   </test> <!-- Cucumber Test - chrome(failed) -->
+  <test thread-count="3" parallel="methods" name="Excel Test - chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.waltonbd.WebTests.ExcelTest">
+        <methods>
+          <include name="DemoLogin"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.waltonbd.WebTests.ExcelTest -->
+    </classes>
+  </test> <!-- Excel Test - chrome(failed) -->
 </suite> <!-- Failed suite [Walton Web Test Suite] -->
